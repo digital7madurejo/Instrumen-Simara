@@ -1,12 +1,12 @@
 <!DOCTYPE html><html lang="id"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><title>Instrumen Outcome SIMARA dan Saru Prabu</title>
-<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;700&family=Public+Sans:wght@400;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
-:root{--bg:#eef3f1;--cd:#fff;--ink:#10242b;--mu:#5b6f74;--ln:#d5e0de;--tl:#0b6066;--ob:#fff;--nv:#0a2c31;--bs:#9db7b8;--gn:#2f8a4f;--rd:#c0453a;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
-@media(prefers-color-scheme:dark){:root:not([data-theme=light]){--bg:#0c171a;--cd:#14262a;--ink:#e6f0ee;--mu:#93a9ad;--ln:#26403f;--tl:#3aa7ae;--ob:#04181a;--nv:#091d20;--bs:#4d6b6d;--gn:#58c27d;--rd:#ef7d70}}
-:root[data-theme=dark]{--bg:#0c171a;--cd:#14262a;--ink:#e6f0ee;--mu:#93a9ad;--ln:#26403f;--tl:#3aa7ae;--ob:#04181a;--nv:#091d20;--bs:#4d6b6d;--gn:#58c27d;--rd:#ef7d70}
+:root{--bg:#f4f6f9;--cd:#fff;--ink:#111827;--mu:#6b7280;--ln:#e2e8f0;--tl:#1e40af;--ob:#fff;--nv:#f1f5f9;--bs:#94a3b8;--gn:#15803d;--rd:#b91c1c;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media(prefers-color-scheme:dark){:root:not([data-theme=light]){--bg:#0b1220;--cd:#111a2c;--ink:#e5e7eb;--mu:#94a3b8;--ln:#1f2a44;--tl:#60a5fa;--ob:#0b1220;--nv:#16213a;--bs:#475569;--gn:#4ade80;--rd:#f87171}}
+:root[data-theme=dark]{--bg:#0b1220;--cd:#111a2c;--ink:#e5e7eb;--mu:#94a3b8;--ln:#1f2a44;--tl:#60a5fa;--ob:#0b1220;--nv:#16213a;--bs:#475569;--gn:#4ade80;--rd:#f87171}
 html{scroll-padding-top:env(safe-area-inset-top,0px)}*{box-sizing:border-box}
-body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.5 'Public Sans',system-ui,sans-serif}
-h1,h2,h3{font-family:'Bricolage Grotesque','Public Sans',sans-serif;margin:0 0 .4em;line-height:1.2}h2{font-size:1.7rem}h3{font-size:1.1rem;margin-top:1.6em}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.5 'Inter',system-ui,sans-serif}
+h1,h2,h3{font-family:'Inter',system-ui,sans-serif;margin:0 0 .4em;line-height:1.2}h2{font-size:1.7rem}h3{font-size:1.1rem;margin-top:1.6em}
 .app{display:grid;grid-template-columns:260px minmax(0,1fr)}
 aside{position:sticky;top:env(safe-area-inset-top,0px);height:calc(100vh - env(safe-area-inset-top,0px));overflow:auto;background:var(--nv);color:#dceceb;padding:20px 14px}
 aside h1{font-size:1.15rem;color:#fff;margin:0}aside small{color:#8fb3b4;display:block;margin-bottom:12px}aside h3{font-size:.8rem;color:#8fb3b4;margin:18px 0 6px;font-weight:600}
@@ -33,9 +33,22 @@ small{display:block;color:var(--mu);font-size:.75rem}.tk{position:relative;heigh
 details{margin-top:18px}summary{cursor:pointer;font-weight:600}
 #ts{position:fixed;left:50%;transform:translateX(-50%);bottom:calc(env(safe-area-inset-bottom,0px) + 16px);background:var(--ink);color:var(--bg);padding:8px 16px;border-radius:8px;opacity:0;pointer-events:none;transition:opacity .2s}#ts.on{opacity:1}
 @media(max-width:860px){.app{display:block}aside{position:sticky;height:auto;display:flex;gap:6px;overflow-x:auto;padding:10px;z-index:2}aside :is(h1,small,h3,span,em){display:none}aside a,aside a:first-of-type{display:block;flex:none;white-space:nowrap}.ir{grid-template-columns:1fr 1fr}.tk{grid-column:1/-1}}
-.ef{display:flex;gap:10px;align-items:end;flex-wrap:wrap}.ef label{flex:1;min-width:170px}aside a.pl{display:block}</style></head><body><div class="app"><aside id="nv"></aside><main id="m"></main></div><div id="ts" role="status"></div>
+.ef{display:flex;gap:10px;align-items:end;flex-wrap:wrap}.ef label{flex:1;min-width:170px}aside a.pl{display:block}
+body{-webkit-font-smoothing:antialiased;font-size:14.5px}
+aside{background:var(--cd);color:var(--ink);border-right:1px solid var(--ln);padding:22px 14px}
+aside h1{color:var(--ink);font-size:1.05rem;font-weight:700}aside small,aside h3,aside em{color:var(--mu)}
+aside h3{text-transform:uppercase;letter-spacing:.06em;font-size:.68rem;font-weight:600}
+aside a{border-radius:8px;color:var(--ink)}aside a:hover{background:var(--bg)}aside a.on{background:var(--tl);color:#fff}aside a.on em{color:#dbeafe}
+h2{font-size:1.5rem;font-weight:700;letter-spacing:-.01em}main{max-width:1120px}
+.card,.sc{border-radius:12px;box-shadow:0 1px 2px rgba(15,23,42,.05)}
+th{background:var(--nv);color:var(--mu);text-transform:uppercase;font-size:.7rem;letter-spacing:.04em;font-weight:600;border-bottom:1px solid var(--ln)}
+button{border-radius:8px;font-weight:500;transition:background .15s}button:hover{background:var(--nv)}.p{background:var(--tl);border-color:var(--tl);color:#fff}.p:hover{background:var(--tl);filter:brightness(1.12)}
+input,select,textarea{border-radius:8px}.res{background:var(--nv);border-left-color:var(--tl);border-radius:0 8px 8px 0}.ch{font-weight:500}
+.tb{display:flex;gap:8px;flex-wrap:wrap;margin:12px 0}
+.paper{background:#fff;color:#000;border:1px solid var(--ln);border-radius:8px;padding:28px;max-height:640px;overflow:auto}
+</style><script defer src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script><script defer src="https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.5.31/jspdf.plugin.autotable.min.js"></script></head><body><div class="app"><aside id="nv"></aside><main id="m"></main></div><div id="ts" role="status"></div>
 <script>
-const $=s=>document.querySelector(s),LS='sdn1raja-instrumen',CL=['#c0453a','#e0894a','#d9bf4a','#6fae7c','#0b6066'];
+const $=s=>document.querySelector(s),LS='sdn1raja-instrumen',CL=['#dc2626','#f59e0b','#fbbf24','#34d399','#1d4ed8'];
 const E=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 let D={};try{D=JSON.parse(localStorage.getItem(LS)||'{}')}catch(e){}
 const save=()=>{try{localStorage.setItem(LS,JSON.stringify(D))}catch(e){}};
@@ -89,11 +102,11 @@ const IND=[['K1','Monitoring Saru Prabu',100,0,p=>A('K1',p,x=>[y(x[1])&y(x[2]),1
 ['K11','Keuangan komite tepat waktu',100,0,p=>A('K11',p,x=>[y(x[4]),1])],['K12','Akurasi presensi QR',98,1,p=>A('K12',p,x=>[nm(x[3]),nm(x[2])])],
 ['K8','Persepsi transparansi (pendukung)',null,0,p=>LK('K8',p,[0,1,2,3,4,5,8,9])],['Q3','Kualitas tindak lanjut supervisi',null,0,p=>RB('Q3',p)],['Q4','Keterlibatan siswa saat pembiasaan',null,0,p=>RB('Q4',p)]];
 function nav(a){const g=(t,ks)=>`<h3>${t}</h3>`+ks.map(k=>`<a href="#${k}" title="${S[k].t}"${k==a?' class="on"':''}>${k}<span>${S[k].t}</span><em>${(D[k]||[]).length||''}</em></a>`).join(''),K=Object.keys(S);
-$('#nv').innerHTML=`<h1>Instrumen Outcome SIMARA</h1><small>SD Negeri 1 Raja</small><a class="pl${a=='dash'?' on':''}" href="#dash">Dasbor</a><a class="pl${a=='admin'?' on':''}" href="#admin">Admin</a>`+g('Kuantitatif',K.filter(k=>k[0]=='K'))+g('Kualitatif',K.filter(k=>k[0]=='Q'))}
+$('#nv').innerHTML=`<h1>Instrumen Outcome SIMARA</h1><small>SD Negeri 1 Raja</small><a class="pl${a=='dash'?' on':''}" href="#dash">Dasbor</a><a class="pl${a=='admin'?' on':''}" href="#admin">Admin</a><a class="pl${a=='laporan'?' on':''}" href="#laporan">Laporan</a>`+g('Kuantitatif',K.filter(k=>k[0]=='K'))+g('Kualitatif',K.filter(k=>k[0]=='Q'))}
 const inp=(c,v,ro)=>'pkg'.includes(c[1])?`<select>${opts(LST[c[1]](),v)}</select>`:c[1]=='y'?'<select><option value="">–</option><option>Ya</option><option>Tidak</option></select>':`<input type="${c[1]=='n'?'number':c[1]=='d'?'date':'text'}"${c[1]=='n'?' min="0"':''} value="${E(v||'')}"${ro?' readonly':''}>`;
 const rowH=(s,i)=>{const P=pr(s);return `<tr>${s.c.map((c,j)=>`<td>${inp(c,P&&i>=0?(j==0?P[i]:j==s.dj?C.kelas[i].jml:''):'',P&&i>=0&&j==0&&c[1]=='t')}</td>`).join('')}<td><button type="button" class="x" aria-label="Hapus baris">×</button></td></tr>`};
 function form(id){const s=S[id],res=IND.filter(i=>i[0]==id&&i[2]!=null).map(i=>`Hasil sementara ${i[1]}: baseline ${pct(i[4]('Baseline'))??'–'}%, endline ${pct(i[4]('Endline'))??'–'}% (target ${i[3]?'>':'≥'}${i[2]}%)`).join('. ');
-let x=`<h2>${id}. ${s.t}</h2><p class="mu">${s.d}</p>${res?`<p class="res">${res}</p>`:''}<form id="f">${hint(s)}<p class="mu">Tahun ajaran: ${ta()?E(ta().nama):'belum diatur'}</p><div class="hd"><label>Tahap<select name="ph"><option>Baseline<option>Endline</select></label><label>Periode${months().length?`<select name="per">${opts(months().concat(['Semester Ganjil','Semester Genap']))}</select>`:'<input name="per" placeholder="mis. Oktober 2026">'}</label>${s.G?`<label>Nama guru<select name="who">${opts(LST.g())}</select></label>`:'<label>Pengisi/kode<input name="who"></label>'}${s.K?`<label>Kelas<select name="kls">${opts(LST.k())}</select></label>`:''}</div>`;
+let x=`<h2>${id}. ${s.t}</h2><p class="mu">${s.d}</p><div class="tb"><button type="button" data-pr="${id}">Cetak formulir kosong</button><button type="button" class="p" data-pd="${id}">Unduh PDF</button></div>${res?`<p class="res">${res}</p>`:''}<form id="f">${hint(s)}<p class="mu">Tahun ajaran: ${ta()?E(ta().nama):'belum diatur'}</p><div class="hd"><label>Tahap<select name="ph"><option>Baseline<option>Endline</select></label><label>Periode${months().length?`<select name="per">${opts(months().concat(['Semester Ganjil','Semester Genap']))}</select>`:'<input name="per" placeholder="mis. Oktober 2026">'}</label>${s.G?`<label>Nama guru<select name="who">${opts(LST.g())}</select></label>`:'<label>Pengisi/kode<input name="who"></label>'}${s.K?`<label>Kelas<select name="kls">${opts(LST.k())}</select></label>`:''}</div>`;
 if(s.c)x+=`<div class="sc"><table class="rt"><thead><tr>${s.c.map(c=>`<th>${c[0]}</th>`).join('')}<th></th></tr></thead><tbody>${Array.from({length:pr(s)?pr(s).length:s.n},(_,i)=>rowH(s,i)).join('')}</tbody></table></div><button type="button" id="ad">Tambah baris</button>`;
 if(s.L)x+=`<p class="mu">Skala: 1 Sangat tidak setuju, 2 Tidak setuju, 3 Cukup setuju, 4 Setuju, 5 Sangat setuju.</p><div class="sc"><table><tbody>${s.L.map((t,i)=>`<tr><td>${i+1}</td><td>${t}</td>${[1,2,3,4,5].map(v=>`<td><label class="rb"><input type="radio" name="l${i}" value="${v}">${v}</label></td>`).join('')}</tr>`).join('')}</tbody></table></div>`;
 if(s.R)x+=`<div class="sc"><table><tbody>${s.R.i.map((t,i)=>`<tr><td>${i+1}</td><td>${t}</td><td><select class="rs"><option value="">–</option>${s.R.o.map((o,k)=>`<option value="${k}">${k} ${o}</option>`).join('')}</select></td></tr>`).join('')}</tbody></table></div>`;
@@ -117,9 +130,10 @@ return `<h2>Dasbor Capaian</h2><p class="mu">Membandingkan baseline dan endline 
 <p><button id="dm" class="p">Muat data contoh</button> <button id="cl">Hapus data contoh</button></p>
 <div class="sum"><span class="ch ok">${T0.filter(v=>v.ok===true).length} tercapai</span><span class="ch no">${T0.filter(v=>v.ok===false).length} belum tercapai</span><span class="ch na">${T0.filter(v=>v.ok===null).length} belum ada endline</span></div>
 <div class="card"><h3>Capaian indikator</h3><p class="mu"><i class="lg" style="background:var(--bs)"></i>Baseline<i class="lg" style="background:var(--tl)"></i>Endline<i class="lg" style="background:var(--ink);width:3px"></i>Target</p>${bars}</div>
-<div class="card"><h3>Sebaran jawaban angket</h3><p class="mu">Warna dari skor 1 (merah) sampai 5 (hijau kebiruan). Arahkan kursor untuk melihat jumlah.</p>${dist}</div>
+<div class="card"><h3>Sebaran jawaban angket</h3><p class="mu">Warna dari skor 1 (merah) sampai 5 (biru). Arahkan kursor untuk melihat jumlah.</p>${dist}</div>
 <div class="card"><h3>Tema kualitatif yang sering muncul</h3>${tm.length?tm.map(t=>`<div class="ir" style="grid-template-columns:minmax(150px,230px) minmax(120px,1fr) 60px"><div>${E(t[0])}</div><div class="tk"><i class="eb" style="width:${t[1]/mx*100}%;top:0;height:24px"></i></div><div>${t[1]}×</div></div>`).join(''):'<p class="mu">Belum ada tema. Isi kolom tema pada instrumen kualitatif.</p>'}</div>
 <div class="card"><h3>Jumlah isian per instrumen</h3><div class="cbs">${K.map(k=>{const n=(D[k]||[]).length;return `<div class="cb"><div class="cw"><i style="height:${n/mc*100}%"></i></div><b>${n}</b><br>${k}</div>`}).join('')}</div></div>
+<div class="card"><h3>Formulir isian manual</h3><p class="mu">Cetak atau unduh PDF seluruh instrumen dalam bentuk formulir kosong. Setiap instrumen juga dapat dicetak dari halamannya masing-masing.</p><div class="tb"><button type="button" data-pr="ALL">Cetak semua instrumen</button><button type="button" class="p" data-pd="ALL">Unduh PDF semua instrumen</button></div></div>
 <details><summary>Cadangkan atau pulihkan data</summary><p class="mu">Data tersimpan di peramban perangkat ini. Salin teks cadangan ke berkas Anda, atau tempel teks cadangan untuk memulihkan.</p><textarea id="bk" rows="4"></textarea><p><button id="cp">Tampilkan cadangan</button> <button id="rs" class="p">Pulihkan dari teks</button></p></details>`}
 function demo(){const TM=['konsistensi','beban kerja','kendala jaringan','keterlibatan siswa','apresiasi','efisiensi'],R=Math.random;
 Object.keys(S).forEach(id=>{const s=S[id];D[id]=(D[id]||[]).filter(r=>!r.demo);['Baseline','Endline'].forEach((ph,k)=>{const f=(s.f||[.65,.95])[k];
@@ -137,7 +151,7 @@ function adm(e){const d=e.target.dataset;if(d.act!==undefined){C.act=d.act;saveC
 if(d.cancel){EDT={};return go()}
 if(d.ed){const[k,i]=d.ed.split(':');EDT={k,id:i};return go()}
 if(d.dl){const[k,i]=d.dl.split(':');if(PD!=k+i){PD=k+i;return go()}C[k]=C[k].filter(x=>x.id!=i);if(k=='ta'&&C.act==i)C.act=C.ta.length?C.ta[0].id:'';PD='';saveC();go()}}
-function go(){const id=(location.hash||'#dash').slice(1),a=id=='admin'||S[id]?id:'dash';$('#m').innerHTML=a=='dash'?dash():a=='admin'?admin():form(a);nav(a);const f=$('#f');if(f)f.onsubmit=sub;const ad=$('#ad');if(ad)ad.onclick=()=>$('.rt tbody').insertAdjacentHTML('beforeend',rowH(S[a],-1))}
+function go(){const id=(location.hash||'#dash').slice(1),a=id=='admin'||id=='laporan'||S[id]?id:'dash';$('#m').innerHTML=a=='dash'?dash():a=='admin'?admin():a=='laporan'?lapPage():form(a);nav(a);const f=$('#f');if(f)f.onsubmit=sub;const ad=$('#ad');if(ad)ad.onclick=()=>$('.rt tbody').insertAdjacentHTML('beforeend',rowH(S[a],-1))}
 $('#m').onclick=e=>{const t=e.target,id=location.hash.slice(1);if(t.classList.contains('x'))t.closest('tr').remove();
 if(t.dataset.d){D[id]=D[id].filter(r=>r.id!=t.dataset.d);save();push({op:'del',i:t.dataset.d});go()}
 if(t.id=='dm')demo();
@@ -146,5 +160,152 @@ if(t.id=='cp'){$('#bk').value=JSON.stringify({D,C});$('#bk').select()}
 if(t.id=='rs'){try{const o=JSON.parse($('#bk').value);if(!o||typeof o!='object'||Array.isArray(o))throw 0;if(o.D){D=o.D;C=Object.assign(C,o.C||{})}else D=o;save();saveC();push({op:'all',D,C});go();toast('Data dipulihkan')}catch(x){toast('Teks cadangan tidak valid.')}}};
 $('#m').addEventListener('click',adm);
 $('#m').addEventListener('submit',e=>{const k=e.target.dataset.e;if(!k)return;e.preventDefault();const fd=new FormData(e.target),o={};EN[k].f.forEach(f=>o[f[0]]=f[2]=='number'?nm(fd.get(f[0])):fd.get(f[0]).trim());if(EDT.k==k){Object.assign(C[k].find(x=>x.id==EDT.id),o);EDT={}}else{o.id=Date.now().toString(36);C[k].push(o);if(k=='ta'&&!C.act)C.act=o.id}saveC();go()});
+/* ===== Cetak, Unduh PDF, dan Laporan ===== */
+let L={sekolah:'SD Negeri 1 Raja',kec:'Arut Selatan',kab:'Kotawaringin Barat',kota:'Pangkalan Bun',semester:'Ganjil',penyusun:'Tim Monitoring dan Evaluasi Program Sekolah'};
+try{Object.assign(L,JSON.parse(localStorage.getItem('sdn1raja-lap')||'{}'))}catch(e){}
+const saveL=()=>{try{localStorage.setItem('sdn1raja-lap',JSON.stringify(L))}catch(e){}};
+const DOT='……………………………………………………',CB='☐',PRG='Program SIMARA dan Saru Prabu';
+const H=(t,l=2,a)=>({k:'h',t,l,a}),P=(t,a,s)=>({k:'p',t,a,s}),U=(a,o)=>({k:'u',a,o}),T=(head,rows,w,h,kv)=>({k:'t',head,rows,w,h,kv}),BX=h=>({k:'b',h}),SG=(l,n)=>({k:'s',l,n}),SP=h=>({k:'v',h}),PB={k:'x'};
+const tglF=()=>L.tgl?new Date(L.tgl+'T00:00').toLocaleDateString('id-ID',{day:'numeric',month:'long',year:'numeric'}):'…………………… '+new Date().getFullYear();
+const DCSS=`.doc{font:11.5pt/1.5 'Times New Roman',Times,serif;color:#000;background:#fff}
+.doc h1{font-size:16pt;text-align:center;margin:0 0 8pt;font-family:inherit}.doc h2{font-size:13pt;margin:14pt 0 6pt;font-family:inherit;font-weight:700}.doc h3{font-size:12pt;margin:10pt 0 4pt;font-family:inherit;font-weight:700}
+.doc .c{text-align:center}.doc p{margin:0 0 6pt;text-align:justify}.doc p.c{text-align:center}
+.doc ul,.doc ol{margin:0 0 6pt;padding-left:20pt}.doc ul.pl{list-style:none;padding-left:16pt}.doc li{margin:0 0 2pt}
+.doc table{width:100%;border-collapse:collapse;margin:4pt 0 8pt;font-size:10.5pt;table-layout:fixed;background:#fff}
+.doc td,.doc th{border:1px solid #000;padding:3pt 5pt;vertical-align:top;text-align:left;word-wrap:break-word;color:#000}
+.doc th{background:#e9ecf1;text-align:center;text-transform:none;letter-spacing:0;font-size:10.5pt;font-weight:700;white-space:normal}
+.doc table.nb td{border:0;text-align:center}.doc .box{border:1px solid #000;margin:2pt 0 8pt}.doc .pb{break-after:page}.doc thead{display:table-header-group}.doc tr{break-inside:avoid}
+.paper .pb{border-top:1px dashed #94a3b8;margin:20px 0}`;
+document.head.appendChild(Object.assign(document.createElement('style'),{textContent:DCSS}));
+
+/* ---------- Renderer HTML ---------- */
+const hx=s=>E(String(s==null?'':s)).replace(/\n/g,'<br>');
+const nmf=n=>{const a=String(n||'………………………………').split('\n');return '( '+a[0]+' )'+a.slice(1).map(z=>'\n'+z).join('')};
+function toHTML(B){return B.map(b=>{
+if(b.k=='h')return `<h${b.l}${b.a?' class="c"':''}>${hx(b.t)}</h${b.l}>`;
+if(b.k=='p')return `<p${b.a?' class="c"':''}>${b.s=='b'?'<b>':b.s=='i'?'<i>':''}${hx(b.t)}${b.s=='b'?'</b>':b.s=='i'?'</i>':''}</p>`;
+if(b.k=='u'){const tg=b.o=='n'?'ol':'ul';return `<${tg}${b.o=='p'?' class="pl"':''}>${b.a.map(z=>`<li>${hx(z)}</li>`).join('')}</${tg}>`}
+if(b.k=='t')return `<table>${b.w?'<colgroup>'+b.w.map(w=>`<col${w?` style="width:${w}%"`:''}>`).join('')+'</colgroup>':''}${b.head?'<thead><tr>'+b.head.map(c=>`<th>${hx(c)}</th>`).join('')+'</tr></thead>':''}<tbody>${b.rows.map(r=>`<tr${b.h?` style="height:${b.h}mm"`:''}>${r.map((c,j)=>b.kv&&!j?`<td><b>${hx(c)}</b></td>`:`<td>${hx(c)}</td>`).join('')}</tr>`).join('')}</tbody></table>`;
+if(b.k=='b')return `<div class="box" style="height:${b.h}mm"></div>`;
+if(b.k=='v')return `<div style="height:${b.h}mm"></div>`;
+if(b.k=='s')return `<table class="nb"><tr>${b.l.map(l=>`<td>${hx(l)}</td>`).join('')}</tr><tr style="height:22mm"><td colspan="${b.l.length}"></td></tr><tr>${b.l.map((_,i)=>`<td>${hx(nmf(b.n&&b.n[i]))}</td>`).join('')}</tr></table>`;
+return '<div class="pb"></div>'}).join('')}
+
+/* ---------- Renderer PDF (jsPDF + autoTable) ---------- */
+const ps=s=>String(s==null?'':s).replace(/☐/g,'[   ]').replace(/≥/g,'>=').replace(/≤/g,'<=').replace(/→/g,'->').replace(/[–—]/g,'-').replace(/…/g,'.').replace(/[^\x00-\xFF\n]/g,'?');
+function toPDF(B,name,ft,cv){const J=window.jspdf;if(!J||!J.jsPDF||!J.jsPDF.API.autoTable)return false;
+const d=new J.jsPDF({unit:'mm',format:'a4'}),W=170,X=20;let y=20;
+const nd=h=>{if(y+h>277){d.addPage();y=20}},
+tx=(t,fs,st,al)=>{d.setFont('times',st);d.setFontSize(fs);const lh=fs*.44;d.splitTextToSize(ps(t),W).forEach(l=>{nd(lh);d.text(l,al?105:X,y+fs*.34,al?{align:'center'}:undefined);y+=lh})};
+B.forEach(b=>{
+if(b.k=='h'){const fs=b.l==1?15:b.l==2?12.5:11.5;y+=b.l==3?2:b.l==2?3:0;nd(12);tx(b.t,fs,'bold',b.a);y+=1.5}
+else if(b.k=='p'){tx(b.t,11,b.s=='b'?'bold':b.s=='i'?'italic':'normal',b.a);y+=1.8}
+else if(b.k=='u'){d.setFont('times','normal');d.setFontSize(11);b.a.forEach((z,i)=>{d.splitTextToSize(ps(z),W-7).forEach((l,j)=>{nd(5);if(!j&&b.o!='p')d.text(b.o=='n'?(i+1)+'.':'-',X+1.5,y+3.8);d.text(l,X+7,y+3.8);y+=5})});y+=2}
+else if(b.k=='t'){const cs={};(b.w||[]).forEach((w,i)=>{cs[i]=w?{cellWidth:W*w/100}:{}});if(b.kv)cs[0]=Object.assign(cs[0]||{},{fontStyle:'bold'});
+d.autoTable({startY:y,head:b.head?[b.head.map(ps)]:undefined,body:b.rows.map(r=>r.map(ps)),theme:'grid',tableWidth:W,margin:{left:X,right:X,top:20,bottom:20},styles:{font:'times',fontSize:9.5,cellPadding:1.8,lineColor:[40,40,40],lineWidth:.2,textColor:0,valign:'top',minCellHeight:b.h||0},headStyles:{fillColor:[233,236,241],textColor:0,fontStyle:'bold',halign:'center',minCellHeight:0},columnStyles:cs});y=d.lastAutoTable.finalY+4}
+else if(b.k=='b'){nd(b.h+3);d.setDrawColor(40);d.setLineWidth(.2);d.rect(X,y,W,b.h);y+=b.h+3}
+else if(b.k=='v'){y+=b.h}
+else if(b.k=='s'){const c=b.l.length,cw=W/c;nd(50);b.l.forEach((l,i)=>{const cx=X+cw*i+cw/2;d.setFont('times','normal');d.setFontSize(11);d.text(ps(l).split('\n'),cx,y+4,{align:'center'});d.text(ps(nmf(b.n&&b.n[i])).split('\n'),cx,y+34,{align:'center'})});y+=46}
+else{d.addPage();y=20}});
+const n=d.getNumberOfPages(),s0=cv?2:1;for(let i=s0;i<=n;i++){d.setPage(i);d.setFont('times','italic');d.setFontSize(9);d.text(ps(ft)+' - Halaman '+(i-s0+1)+' dari '+(n-s0+1),105,290,{align:'center'})}
+d.save(name);return true}
+
+function doPrint(B,title){const f=document.createElement('iframe');f.style.cssText='position:fixed;right:0;bottom:0;width:0;height:0;border:0';document.body.appendChild(f);const w=f.contentWindow;w.document.open();
+w.document.write(`<!DOCTYPE html><html lang="id"><head><meta charset="utf-8"><title>${E(title)}</title><style>${DCSS}@page{size:A4;margin:20mm}body{margin:0}</style></head><body class="doc">${toHTML(B)}</body></html>`);w.document.close();
+setTimeout(()=>{w.focus();w.print();setTimeout(()=>f.remove(),60000)},400)}
+function out(B,mode,name,ft,cv){if(mode=='pdf'){if(!toPDF(B,name,ft,cv)){toast('Pustaka PDF belum termuat. Gunakan Cetak, lalu pilih Simpan sebagai PDF.');doPrint(B,name)}}else doPrint(B,name)}
+
+/* ---------- Formulir kosong untuk isian manual ---------- */
+function formDoc(id){const s=S[id],B=[],P2=pr(s);
+B.push(P('INSTRUMEN OUTCOME SIMARA DAN SARU PRABU',1,'b'),P((L.sekolah||'').toUpperCase(),1,'b'),H(id+'. '+s.t,2,1),P(s.d,1,'i'),
+T(null,[['Tahun ajaran',ta()?ta().nama:DOT],['Tahap',CB+' Baseline      '+CB+' Endline'],['Periode',DOT],[s.G?'Nama guru':'Pengisi / kode',DOT],...(s.K?[['Kelas',DOT]]:[]),['Tanggal pengisian',DOT]],[30,70],0,1));
+if(s.c){const n=P2?P2.length:Math.max(s.n||8,8);
+B.push(T(['No',...s.c.map(c=>c[0])],Array.from({length:n},(_,i)=>[String(i+1),...s.c.map((c,j)=>c[1]=='y'?CB+' Ya  '+CB+' Tidak':P2?(j==0?(typeof P2[i]=='string'?P2[i]:''):j==s.dj?String((C.kelas[i]||{}).jml||''):''):'')]),[5,...s.c.map(()=>0)],9))}
+if(s.L)B.push(P('Petunjuk: beri tanda centang pada skor yang sesuai. Skala: 1 Sangat tidak setuju, 2 Tidak setuju, 3 Cukup setuju, 4 Setuju, 5 Sangat setuju.'),T(['No','Pernyataan','1','2','3','4','5'],s.L.map((t,i)=>[String(i+1),t,'','','','','']),[5,55,8,8,8,8,8],9));
+if(s.R)B.push(P('Petunjuk: beri tanda centang pada skor yang sesuai. '+s.R.o.map((o,k)=>k+' = '+o).join(', ')+'.'),T(['No','Aspek yang diamati',...s.R.o.map((o,k)=>k+' '+o)],s.R.i.map((t,i)=>[String(i+1),t,...s.R.o.map(()=>'')]),[5,50,...s.R.o.map(()=>15)],9));
+(s.q||[]).forEach((q,i)=>B.push(P((i+1)+'. '+q,0,'b'),BX(id=='Q1'||id=='Q5'||id=='Q6'?26:20)));
+if(id[0]=='Q')B.push(P('Tema yang muncul (pisahkan dengan koma): '+DOT));
+B.push(SP(4),SG(['Pengisi / Petugas','Mengetahui,\nKepala Sekolah'],['',L.kepsek||'']));return B}
+
+/* ---------- Laporan ---------- */
+function VV(){return IND.map((i,n)=>{const b=i[4]('Baseline'),e=i[4]('Endline'),pb=pct(b),pe=pct(e),tg=i[2];return{n,i,b,e,pb,pe,tg,ok:pe==null||tg==null?null:(i[3]?pe>tg:pe>=tg),cap:pe==null||tg==null?null:Math.round(pe/tg*1000)/10}})}
+const KAT=c=>c==null?'-':c>=90?'Sangat Baik':c>=75?'Baik':c>=60?'Cukup':'Kurang',TG=v=>v.tg==null?'-':(v.i[3]?'> ':'≥ ')+v.tg+'%';
+function repDoc(){const V=VV(),Tg=V.filter(v=>v.tg!=null),un=Tg.filter(v=>v.ok===false),ach=Tg.filter(v=>v.ok===true),pend=Tg.filter(v=>v.ok===null),
+ts=ta()?ta().nama:'……/……',g=k=>L[k]||DOT,sk=g('sekolah'),yr=new Date().getFullYear(),Ks=Object.keys(S),nq=Ks.filter(k=>k[0]=='K').length,
+cnt=ph=>Ks.reduce((a,k)=>a+recs(k,ph).length,0),pc=v=>v==null?'-':v+'%',ls=t=>(t||'').split('\n').map(z=>z.trim()).filter(Boolean),
+gp=v=>Math.round((v.tg-v.pe)*10)/10,kn=(L.kepsek||'')+(L.nip?'\nNIP. '+L.nip:''),hari=L.tgl?new Date(L.tgl+'T00:00').toLocaleDateString('id-ID',{weekday:'long'})+', ':'',place=g('kota')+', '+tglF(),
+tin=v=>L['tin'+v.n]||'Meningkatkan capaian '+v.i[1].toLowerCase()+' ('+v.i[0]+') hingga memenuhi target '+TG(v)+'.',big=un.slice().sort((a,b)=>gp(b)-gp(a))[0],
+pnd=ach.map(v=>v.i[1]+' ('+v.i[0]+') mencapai '+v.pe+'% dan memenuhi target '+TG(v)+'.').concat(ls(L.pnd)),
+hbt=un.map(v=>v.i[1]+' ('+v.i[0]+') baru mencapai '+v.pe+'% dari target '+TG(v)+'.').concat(ls(L.hbt)),
+ck=['Program kerja/program Saru Prabu sekolah','Jadwal pelaksanaan dan pembagian tugas penanggung jawab','Rekap pemantauan program di SIMARA','Instrumen monitoring yang telah diisi','Catatan wawancara/FGD dan jurnal refleksi','Dokumen supervisi dan tindak lanjutnya','Arsip perangkat guru','Rekap target dan realisasi/capaian','Analisis gap, akar masalah, rekomendasi, dan RTL','Bukti verifikasi pelaksanaan RTL'],
+rek=un.map(tin).concat(ls(L.rek),['Melakukan monitoring ulang untuk memverifikasi pelaksanaan perbaikan.']);
+return[
+SP(25),H('LAPORAN MONITORING DAN EVALUASI PROGRAM SEKOLAH',1,1),H('PENERAPAN: '+PRG.toUpperCase(),1,1),SP(8),P('SEMESTER '+g('semester').toUpperCase(),1,'b'),P('TAHUN PELAJARAN '+ts,1,'b'),SP(25),P('Disusun oleh:',1),P(g('penyusun'),1,'b'),SP(40),P(sk.toUpperCase(),1,'b'),P('KECAMATAN '+g('kec').toUpperCase(),1,'b'),P('KABUPATEN '+g('kab').toUpperCase(),1,'b'),P(String(yr),1,'b'),PB,
+H('IDENTITAS LAPORAN',2,1),T(['Komponen','Keterangan'],[['Nama satuan pendidikan',sk],['Kecamatan/Kabupaten',g('kec')+' / '+g('kab')],['Nama program yang dimonitor',PRG],['Periode pemantauan','Baseline dan Endline, Semester '+g('semester')+' Tahun Ajaran '+ts],['Penanggung jawab program',g('pj')],['Tim pelaksana monitoring','Kepala sekolah dan Tim Monev'+(L.ketua?' (Ketua: '+L.ketua+')':'')],['Penyusun laporan',g('penyusun')],['Tanggal laporan',tglF()]],[35,65]),PB,
+H('LEMBAR PENGESAHAN',2,1),P('Laporan Monitoring dan Evaluasi '+PRG+' ini disusun berdasarkan kegiatan pemantauan, pemeriksaan dokumen, pencatatan hasil, analisis capaian, serta penyusunan rencana tindak lanjut, Semester '+g('semester')+' Tahun Ajaran '+ts+' di '+sk+', Kecamatan '+g('kec')+', Kabupaten '+g('kab')+', telah diperiksa dan disahkan pada:'),
+P('Hari/Tanggal : '+(L.tgl?hari+tglF():DOT)),P('Tempat : '+sk),SP(4),P(place+'.'),SG(['Ketua Tim Monev','Penanggung Jawab Program','Kepala Sekolah'],[L.ketua,L.pj,kn]),PB,
+H('KATA PENGANTAR',2,1),P('Puji syukur ke hadirat Tuhan Yang Maha Esa karena laporan monitoring dan evaluasi '+PRG+' dapat disusun sebagai bentuk pengendalian dan refleksi terhadap pelaksanaan program sekolah. Laporan ini memuat perencanaan pemantauan, metode dan instrumen pengumpulan data, hasil monitoring, analisis kesenjangan, identifikasi akar masalah, rekomendasi, serta rencana tindak lanjut.'),
+P('Penyusunan laporan mengacu pada alur monitoring dan evaluasi program sekolah, yaitu merencanakan kegiatan, menyusun instrumen, mengumpulkan data, menganalisis target dan realisasi, melaporkan hasil, serta menetapkan tindak lanjut. Semoga laporan ini membantu sekolah menggunakan data dan bukti sebagai dasar perbaikan program secara berkelanjutan.'),SP(4),P(place+'.'),SG(['Kepala Sekolah'],[kn]),PB,
+H('DAFTAR ISI',2,1),P('BAB I PENDAHULUAN',0,'b'),U(['A. Latar Belakang','B. Tujuan Monitoring dan Evaluasi','C. Ruang Lingkup','D. Dasar Pelaksanaan','E. Indikator Keberhasilan'],'p'),
+P('BAB II PELAKSANAAN MONITORING DAN EVALUASI',0,'b'),U(['A. Waktu dan Tempat','B. Tim Pelaksana','C. Teknik dan Instrumen Pengumpulan Data','D. Langkah Pelaksanaan','E. Sumber Data dan Bukti'],'p'),
+P('BAB III HASIL MONITORING DAN PEMBAHASAN',0,'b'),U(['A. Hasil Pengumpulan Data','B. Rekapitulasi Target dan Realisasi','C. Analisis Kesenjangan (Gap)','D. Identifikasi Akar Masalah','E. Faktor Pendukung dan Penghambat','F. Pembahasan'],'p'),
+P('BAB IV KESIMPULAN DAN RENCANA TINDAK LANJUT',0,'b'),U(['A. Kesimpulan','B. Rekomendasi','C. Rencana Tindak Lanjut','D. Verifikasi Pelaksanaan RTL','E. Penutup'],'p'),
+P('LAMPIRAN',0,'b'),U(['Lampiran 1. Matriks Monitoring Program','Lampiran 2. Pedoman Wawancara/Refleksi','Lampiran 3. Ceklis Bukti Fisik','Lampiran 4. Format Berita Acara Monitoring'],'p'),PB,
+/* BAB I */
+H('BAB I. PENDAHULUAN',2,1),H('A. Latar Belakang',3),
+P('Program Saru Prabu merupakan rangkaian kegiatan pembiasaan di '+sk+', sedangkan SIMARA adalah sistem yang digunakan untuk mencatat, memantau, dan melaporkan pelaksanaannya. Agar program berjalan sesuai rencana, diperlukan monitoring secara berkala untuk mengetahui keterlaksanaan kegiatan, motivasi dan kepuasan pelaksana, akurasi data, serta ketersediaan bukti pelaksanaan.'),
+P('Evaluasi dilakukan dengan membandingkan kondisi awal (baseline) dan kondisi akhir (endline) terhadap target, menelaah faktor pendukung serta penghambat, dan menetapkan langkah perbaikan. Dengan demikian, hasil monitoring dan evaluasi tidak hanya menjadi catatan administrasi, tetapi digunakan sebagai dasar pengambilan keputusan dan peningkatan mutu program.'),
+H('B. Tujuan Monitoring dan Evaluasi',3),U(['Mengetahui kesesuaian pelaksanaan Program Saru Prabu dan penggunaan SIMARA dengan rencana dan jadwal.','Mengukur ketercapaian indikator outcome dibandingkan target pada tahap baseline dan endline.','Memeriksa kelengkapan data, dokumen, dan bukti pelaksanaan.','Mengidentifikasi kendala dan penyebab belum tercapainya target.','Menyusun rekomendasi serta rencana tindak lanjut yang dapat diverifikasi.']),
+H('C. Ruang Lingkup',3),P('Pemantauan mencakup '+Ks.length+' instrumen ('+nq+' kuantitatif dan '+(Ks.length-nq)+' kualitatif) yang meliputi monitoring dan konsistensi pelaksanaan Saru Prabu, motivasi dan kepuasan guru, kepuasan orang tua, akurasi data kesiswaan dan presensi, penggunaan aktif SIMARA, kelengkapan arsip perangkat guru, supervisi digital, serta pengelolaan keuangan komite.'),
+H('D. Dasar Pelaksanaan',3),U(['Program kerja dan rencana kegiatan sekolah yang berlaku.','Jadwal kegiatan sekolah dan pembagian tugas penanggung jawab program.','Kesepakatan sekolah mengenai pelaksanaan Program Saru Prabu dan penggunaan SIMARA.','Materi pendampingan kepala sekolah: Monitoring dan Evaluasi Program Sekolah.']),
+H('E. Indikator Keberhasilan',3),T(['No.','Indikator','Target','Sumber data'],Tg.map((v,i)=>[i+1,v.i[1],TG(v),v.i[0]+'. '+S[v.i[0]].t]),[7,38,15,40]),PB,
+/* BAB II */
+H('BAB II. PELAKSANAAN MONITORING DAN EVALUASI',2,1),H('A. Waktu dan Tempat',3),P('Hari/tanggal: '+(L.tgl?hari+tglF():DOT)+'. Waktu: '+(L.wkt||DOT)+'. Tempat: '+sk+', Kecamatan '+g('kec')+'.'),
+H('B. Tim Pelaksana',3),T(['Unsur','Peran'],[['Kepala sekolah','Mengoordinasikan pelaksanaan monitoring, memberikan arahan, dan mengesahkan tindak lanjut.'],['Tim Monev','Menyiapkan instrumen, mengumpulkan dan memeriksa data, mencatat temuan, serta menyusun laporan.'],['Operator SIMARA','Menyediakan data, rekap, dan penjelasan penggunaan SIMARA.'],['Guru dan wali kelas','Melaksanakan Saru Prabu, mencatat pelaksanaan, dan menyampaikan refleksi serta kendala.']],[25,75]),
+H('C. Teknik dan Instrumen Pengumpulan Data',3),T(['Kode','Instrumen','Penggunaan pada program'],Ks.map(k=>[k,S[k].t,S[k].d]),[8,30,62]),
+H('D. Langkah Pelaksanaan',3),U(['Merencanakan monitoring dengan menetapkan program, tujuan, waktu, tim, dan sasaran pemantauan.','Menyusun instrumen berdasarkan indikator dan target yang telah ditentukan.','Mengumpulkan data pada tahap baseline dan endline melalui angket, observasi, rekap, wawancara, dan FGD.','Menganalisis data dengan membandingkan target dan realisasi serta mencatat kendala.','Menyusun laporan berisi hasil, pembahasan, kesimpulan, dan rekomendasi.','Menetapkan tindak lanjut dan melakukan pemantauan ulang untuk memeriksa penyelesaiannya.'],'n'),
+H('E. Sumber Data dan Bukti',3),U(['Isian instrumen pada aplikasi atau formulir manual.','Rekap dan data pada SIMARA.','Catatan observasi, wawancara, dan FGD Tim Monev.','Dokumen supervisi, arsip perangkat guru, dan log keuangan komite.']),PB,
+/* BAB III */
+H('BAB III. HASIL MONITORING DAN PEMBAHASAN',2,1),H('A. Hasil Pengumpulan Data',3),
+P('Pengumpulan data dilakukan melalui '+Ks.length+' instrumen. Pada tahun ajaran '+ts+' terkumpul '+cnt('Baseline')+' isian baseline dan '+cnt('Endline')+' isian endline.'),
+T(['No.','Instrumen','Isian baseline','Isian endline'],Ks.map((k,i)=>[i+1,k+'. '+S[k].t,recs(k,'Baseline').length,recs(k,'Endline').length]),[7,63,15,15]),
+H('B. Rekapitulasi Target dan Realisasi',3),T(['No.','Indikator','Target','Baseline','Realisasi (endline)','Capaian','Kategori'],Tg.map((v,i)=>[i+1,v.i[1],TG(v),pc(v.pb),pc(v.pe),v.cap==null?'-':v.cap+'%',KAT(v.cap)]),[6,30,12,12,15,12,13]),
+P('Perhitungan capaian: Realisasi ÷ Target × 100%. Kategori: ≥ 90% Sangat Baik; 75–89% Baik; 60–74% Cukup; < 60% Kurang. Angka menunjukkan capaian terhadap target dan bukan bukti hubungan sebab-akibat.',0,'i'),
+H('C. Analisis Kesenjangan (Gap)',3),T(['Aspek','Target','Realisasi','Kesenjangan'],Tg.map(v=>[v.i[1],TG(v),pc(v.pe),v.ok==null?'Belum ada endline':v.ok?'Tercapai (lebih '+Math.abs(gp(v))+' poin)':'Kurang '+gp(v)+' poin persentase']),[34,14,14,38]),
+P('Analisis: dari '+Tg.length+' indikator bertarget, '+ach.length+' tercapai, '+un.length+' belum tercapai, dan '+pend.length+' belum memiliki data endline.'+(big?' Kesenjangan terbesar terdapat pada '+big.i[1]+' ('+big.i[0]+') sebesar '+gp(big)+' poin persentase di bawah target.':'')),
+H('D. Identifikasi Akar Masalah',3),...(un.length?[T(['Temuan','Penyebab langsung','Akar masalah yang perlu diverifikasi','Data pendukung'],un.map(v=>[v.i[1]+' baru mencapai '+v.pe+'% dari target '+TG(v)+'.',L['pen'+v.n]||'',L['akr'+v.n]||'',v.i[0]+': '+(v.e.d)+' data endline']),[28,24,28,20],14),P('Catatan: akar masalah di atas harus dikonfirmasi melalui wawancara dan pemeriksaan dokumen sebelum ditetapkan sebagai temuan resmi.',0,'i')]:[P('Tidak ada indikator yang belum tercapai pada data yang tersedia.')]),
+H('E. Faktor Pendukung dan Penghambat',3),T(['Faktor pendukung','Faktor penghambat'],Array.from({length:Math.max(pnd.length,hbt.length,1)},(_,i)=>[pnd[i]||'',hbt[i]||'']),[50,50],10),
+H('F. Pembahasan',3),P('Hasil monitoring menunjukkan bahwa '+ach.length+' dari '+Tg.length+' indikator bertarget telah memenuhi target'+(un.length?', sedangkan '+un.map(v=>v.i[0]+' '+v.i[1]).join('; ')+' masih memerlukan perbaikan':'')+'.'+(pend.length?' Sebanyak '+pend.length+' indikator belum dapat disimpulkan karena data endline belum tersedia.':'')),
+P('Monitoring berikutnya perlu memeriksa apakah perbaikan yang direncanakan benar-benar dilaksanakan, apakah capaian indikator mendekati atau memenuhi target, dan apakah data serta arsip bukti semakin tertib.'),...(L.bhs?[P(L.bhs)]:[]),PB,
+/* BAB IV */
+H('BAB IV. KESIMPULAN DAN RENCANA TINDAK LANJUT',2,1),H('A. Kesimpulan',3),
+P('Berdasarkan hasil monitoring dan evaluasi, '+PRG+' pada Semester '+g('semester')+' Tahun Ajaran '+ts+' mencapai '+ach.length+' dari '+Tg.length+' indikator bertarget.'+(big?' Kesenjangan utama terdapat pada '+big.i[1]+' ('+big.i[0]+'), yaitu '+gp(big)+' poin persentase di bawah target.':'')+(pend.length?' '+pend.length+' indikator masih menunggu data endline.':'')),
+H('B. Rekomendasi',3),U(rek),
+H('C. Rencana Tindak Lanjut (RTL)',3),...(un.length?[T(['No.','Temuan','Rekomendasi/tindakan perbaikan','Penanggung jawab','Waktu','Bukti verifikasi'],un.map((v,i)=>[i+1,v.i[1]+' belum mencapai target.',tin(v),L['pjk'+v.n]||'',L['wkt'+v.n]||'',L['bkt'+v.n]||'']),[5,20,30,16,12,17],14)]:[P('Belum ada tindak lanjut yang perlu ditetapkan.')]),
+H('D. Verifikasi Pelaksanaan RTL',3),...(un.length?[T(['No.','Aksi RTL','Status','Hasil verifikasi/bukti','Tanggal verifikasi'],un.map((v,i)=>[i+1,tin(v),CB+' Sudah\n'+CB+' Belum','','']),[5,33,14,32,16],16)]:[P('Tidak ada RTL yang perlu diverifikasi.')]),
+H('E. Penutup',3),P('Laporan ini disusun sebagai penerapan monitoring dan evaluasi program sekolah. Hasil pemantauan diharapkan digunakan untuk memperbaiki pelaksanaan program, memperkuat pengelolaan berbasis data, dan memastikan tindak lanjut dilaksanakan serta diverifikasi.'),SP(4),P(place+'.'),SG(['Kepala Sekolah'],[kn]),PB,
+/* LAMPIRAN */
+H('LAMPIRAN 1. MATRIKS MONITORING PROGRAM',2),P('Program: '+PRG+' | Tahun ajaran: '+ts+' | Petugas: Tim Monev'),
+T(['Kode','Indikator','Target','Baseline','Endline','Capaian','Keterangan'],V.map(v=>[v.i[0],v.i[1],TG(v),pc(v.pb),pc(v.pe),v.cap==null?'-':v.cap+'% ('+KAT(v.cap)+')',v.ok==null?(v.tg==null?'Data pendukung':'Belum ada endline'):v.ok?'Tercapai':'Belum tercapai']),[7,27,10,10,10,18,18]),
+P('Rumus: Capaian (%) = Realisasi ÷ Target × 100%. Kategori: ≥ 90% Sangat Baik; 75–89% Baik; 60–74% Cukup; < 60% Kurang.',0,'i'),PB,
+H('LAMPIRAN 2. PEDOMAN WAWANCARA/REFLEKSI',2),U(S.Q1.q,'n'),P('Narasumber: '+DOT+'   Jabatan: '+DOT),P('Tanggal: '+DOT+'   Pewawancara: '+DOT),P('Ringkasan jawaban/hasil konfirmasi:'),BX(32),PB,
+H('LAMPIRAN 3. CEKLIS BUKTI FISIK',2),T(['No.','Jenis bukti fisik','Ada','Belum','Keterangan/lokasi arsip'],ck.map((c,i)=>[i+1,c,CB,CB,'']),[6,44,9,9,32],10),PB,
+H('LAMPIRAN 4. FORMAT BERITA ACARA MONITORING',2),P('Pada hari ………………… tanggal ………………… bulan ………………… tahun …………………, bertempat di '+sk+', telah dilaksanakan monitoring '+PRG+'.'),
+P('Peserta/pihak yang hadir:'),BX(18),P('Hasil pemeriksaan:'),BX(22),P('Temuan yang dibahas:'),BX(22),P('Kesepakatan tindak lanjut:'),BX(22),P('Demikian berita acara ini dibuat untuk digunakan sebagaimana mestinya.'),SG(['Petugas Monitoring','Penanggung Jawab Program','Kepala Sekolah'],['',L.pj,kn])]}
+
+function lapPage(){const V=VV().filter(v=>v.tg!=null&&v.ok===false),
+f=(k,l,ty='text')=>`<label>${l}<input data-l="${k}" type="${ty}" value="${E(L[k]||'')}"></label>`,x=(k,l)=>`<label class="q">${l}<textarea data-l="${k}" rows="3">${E(L[k]||'')}</textarea></label>`;
+return `<h2>Laporan Monitoring dan Evaluasi</h2><p class="mu">Laporan disusun otomatis dari data instrumen tahun ajaran aktif dengan sistematika Sampul sampai Lampiran. Lengkapi isian di bawah, pratinjau berubah seketika. Isian laporan tersimpan di perangkat ini.</p>
+<div class="tb"><button type="button" class="p" data-lp="1">Cetak laporan</button><button type="button" data-lp="2">Unduh PDF</button></div>
+<div class="card"><h3>Identitas dan pengesahan</h3><div class="hd">${f('sekolah','Nama sekolah')}${f('kec','Kecamatan')}${f('kab','Kabupaten')}${f('kota','Kota penandatanganan')}${f('semester','Semester')}${f('tgl','Tanggal laporan / monitoring','date')}${f('wkt','Waktu monitoring')}${f('penyusun','Penyusun laporan')}${f('ketua','Ketua Tim Monev')}${f('pj','Penanggung jawab program')}${f('kepsek','Kepala sekolah')}${f('nip','NIP kepala sekolah')}</div></div>
+<div class="card"><h3>Akar masalah dan rencana tindak lanjut</h3>${V.length?V.map(v=>`<h3>${v.i[0]} ${v.i[1]} <span class="mu">(${v.pe}% dari target ${TG(v)})</span></h3><div class="hd">${f('pen'+v.n,'Penyebab langsung')}${f('akr'+v.n,'Akar masalah')}${f('tin'+v.n,'Tindakan perbaikan')}${f('pjk'+v.n,'Penanggung jawab')}${f('wkt'+v.n,'Waktu')}${f('bkt'+v.n,'Bukti verifikasi')}</div>`).join(''):'<p class="mu">Belum ada indikator yang belum tercapai, atau data endline belum diisi.</p>'}</div>
+<div class="card"><h3>Catatan tambahan</h3>${x('pnd','Faktor pendukung tambahan (satu per baris)')}${x('hbt','Faktor penghambat tambahan (satu per baris)')}${x('rek','Rekomendasi tambahan (satu per baris)')}${x('bhs','Catatan pembahasan tambahan')}</div>
+<h3>Pratinjau laporan</h3><div class="paper doc" id="pv">${toHTML(repDoc())}</div>`}
+
+$('#m').addEventListener('click',e=>{const t=e.target.closest('button');if(!t)return;const d=t.dataset;
+if(d.pr||d.pd){const id=d.pr||d.pd,B=id=='ALL'?Object.keys(S).flatMap((k,i)=>(i?[PB]:[]).concat(formDoc(k))):formDoc(id);out(B,d.pr?'print':'pdf','Instrumen_'+id+'.pdf','Instrumen '+(id=='ALL'?'SIMARA dan Saru Prabu':id),0)}
+if(d.lp)out(repDoc(),d.lp=='1'?'print':'pdf','Laporan_Monev_SIMARA_Saru_Prabu.pdf','Laporan Monev SIMARA dan Saru Prabu',1)});
+$('#m').addEventListener('input',e=>{const k=e.target.dataset.l;if(!k)return;L[k]=e.target.value;saveL();const p=$('#pv');if(p)p.innerHTML=toHTML(repDoc())});
+
 addEventListener('hashchange',go);go();pull(1);document.addEventListener('visibilitychange',()=>{if(!document.hidden&&(location.hash||'#dash')=='#dash')pull(1)});
 </script></body></html>
